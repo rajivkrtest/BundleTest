@@ -1,0 +1,22 @@
+{
+  "name": "BundleTest",
+  "version": "0.1.0",
+  "summary": "A short description of BundleTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rajikum4/BundleTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rajikum4": "rajikum4@cisco.com"
+  },
+  "source": {
+    "git": "https://github.com/rajikum4/BundleTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BundleTest/Classes/**/*"
+}

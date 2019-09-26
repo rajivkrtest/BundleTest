@@ -21,20 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rajikum4/BundleTest'
+  s.homepage         = 'https://github.com/rajivkrtest/BundleTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rajikum4' => 'rajikum4@cisco.com' }
-  s.source           = { :git => 'https://github.com/rajikum4/BundleTest.git', :tag => s.version.to_s }
+  s.author           = { 'rajikum4' => 'rajivkrtest@gmail.com.com' }
+  s.source           = { :git => 'https://github.com/rajivkrtest/BundleTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'BundleTest/Classes/**/*'
   
   # s.resource_bundles = {
   #   'BundleTest' => ['BundleTest/Assets/*.png']
   # }
+
+  s.ios.deployment_target = '8.0'
+  
+  s.vendored_framework = 'BundleTest/*.framework'
+  s.resources =['BundleTest/AppsPanelBL.bundle']
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

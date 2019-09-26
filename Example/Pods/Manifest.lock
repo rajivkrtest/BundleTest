@@ -1,0 +1,16 @@
+PODS:
+  - BundleTest (0.1.0)
+
+DEPENDENCIES:
+  - BundleTest (from `../`)
+
+EXTERNAL SOURCES:
+  BundleTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BundleTest: 802184ea1710c663561ced0ffbead8ead3b86726
+
+PODFILE CHECKSUM: b1aa6b61b143b16805ad84a775d8a809248aabb6
+
+COCOAPODS: 1.7.2
