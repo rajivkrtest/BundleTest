@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BundleTest_Tests' do
+  pod 'BundleTest', :path => '../'
+  
+  
+end
